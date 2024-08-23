@@ -1,0 +1,46 @@
+
+.todo-list{
+    padding-top: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.todo-list ul .output-zone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:62%;
+    height: 38px;
+    border-radius: 10px;
+    background: #222;
+    padding-left: 15px;
+}
+
+.output-zone li{
+    width: 100%;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.output-zone li::first-letter{
+    text-transform: capitalize;
+}
+.todoDel{
+    border: none;
+    outline: none;
+    width: 38px;
+    height: 38px;
+    background-color: transparent;
+}

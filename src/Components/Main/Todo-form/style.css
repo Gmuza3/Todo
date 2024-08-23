@@ -1,0 +1,46 @@
+
+.todo-form{
+    width: 100%;
+}
+.todo-form form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+input{
+    width: 57%;
+    height: 49px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    padding-left: 15px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+}
+button{
+    position: absolute;
+    right: 17%;
+    border-radius: 20px;
+    width: 142.686px;
+    height: 54px;
+    background-color: #4F4F4F;
+    color: #FFF;
+    font-family: "Racing Sans One",sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.line{
+    margin-top: 35px;
+    position: absolute;
+    left: 18%;
+    width: 72%;
+    height: 1px;
+    background-color: #fff;
+
+}

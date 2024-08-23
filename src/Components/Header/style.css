@@ -1,0 +1,87 @@
+.header-zone{
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    /* justify-content: center; */
+    gap: 100px;
+}
+.img-zone{
+    /* width: 25%; */
+    flex-shrink: 0;
+    width: 340px;
+}
+.img-zone img{
+    width: 100%;
+    height: auto;
+}
+.box{
+    padding-top: 30px;
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 1040px) {
+    .header-zone {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .text-zone {
+        width: 340px;
+    }
+}
+@media (max-width: 660px) {
+    .box .text-zone h1{
+        font-size: 50px;
+    }
+    .box .icon-zone span{
+        width: 190px;
+    }
+    .box .icon-zone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:15px;
+    
+    }
+}
+.text-zone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 548px;
+    height: 81px;
+}
+
+.text-zone h1{
+    color: #FFF;
+    font-family: "Racing Sans One",sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.icon-zone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+}
+.icon-zone span {
+    height: 2px;
+    width: 240px;
+    background-color: #FFF;
+    color: #fff;
+}
+.text-zone span{
+    height: 2px;
+    width: 50px;
+    background-color: #FFF;
+    color: #fff;
+}
