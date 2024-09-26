@@ -24,12 +24,12 @@ button{
     position: absolute;
     right: 17%;
     border-radius: 20px;
-    width: 142.686px;
+    width: 142px;
     height: 54px;
     background-color: #4F4F4F;
     color: #FFF;
     font-family: "Racing Sans One",sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
     border: none;
     cursor: pointer;
