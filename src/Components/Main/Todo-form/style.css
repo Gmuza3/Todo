@@ -50,12 +50,12 @@ button{
     }
     .todo-form form button{
         position: fixed;
-        right: 25px;
+        right: 20px;
     }
 }
 @media (max-width:360px) {
     .todo-form form button{
         position: fixed;
-        right: 0px;
+        right: 10px;
     }
 }
