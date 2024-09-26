@@ -1,12 +1,8 @@
-import weather from "../Images/weather.png"
 import "./style.css"
 
 const Header =() =>{
     return(
         <div className="header-zone">
-            <div className="img-zone">
-                <img src={weather} alt="" />
-            </div>
             <div className="box">
                 <div className="text-zone">
                     <span></span>

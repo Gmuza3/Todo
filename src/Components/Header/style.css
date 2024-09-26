@@ -1,52 +1,47 @@
 .header-zone{
     width: 100%;
     display: flex;
-    align-items:flex-start;
-    /* justify-content: center; */
+    align-items:center;
+    justify-content: center;
     gap: 100px;
 }
-.img-zone{
-    /* width: 25%; */
-    flex-shrink: 0;
-    width: 340px;
-}
-.img-zone img{
-    width: 100%;
-    height: auto;
-}
+
 .box{
+    width: 100%;
     padding-top: 30px;
-    width: 34%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 8px;
 }
 
-@media (max-width: 1040px) {
-    .header-zone {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+@media (max-width: 840px) {
+    .box .text-zone {
+        display: flex;
     }
-
-    .text-zone {
-        width: 340px;
-    }
-}
-@media (max-width: 660px) {
     .box .text-zone h1{
         font-size: 50px;
     }
     .box .icon-zone span{
         width: 190px;
     }
-    .box .icon-zone{
+}
+@media (max-width: 490px) {
+    .box .text-zone {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        gap:15px;
-    
+    }
+    .box .text-zone h1{
+        font-size: 40px;
+    }
+    .box .text-zone{
+        gap: 12px;
+    }
+    .box .text-zone span{
+        width: 30px;
+    }
+    .box .icon-zone span{
+        width: 120px;
     }
 }
 .text-zone{
@@ -54,7 +49,6 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
-    width: 548px;
     height: 81px;
 }
 

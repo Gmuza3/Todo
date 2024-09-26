@@ -42,5 +42,20 @@ button{
     width: 72%;
     height: 1px;
     background-color: #fff;
+}
 
+@media (max-width:460px) {
+    .todo-form form input{
+        min-width: 300px;
+    }
+    .todo-form form button{
+        position: fixed;
+        right: 25px;
+    }
+}
+@media (max-width:360px) {
+    .todo-form form button{
+        position: fixed;
+        right: 0px;
+    }
 }
